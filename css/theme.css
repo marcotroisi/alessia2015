@@ -23,7 +23,7 @@
 
 body {
     font-size: 16px;
-    line-height: 1.67;
+    line-height: 1.69;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
 }
@@ -37,9 +37,13 @@ header#logo {
     font-family: Arkiv, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 100px;
     color: #181818;
+}
+
+.container { 
+    padding: 2em;
 }
 
 section#content-wrapper {
@@ -49,7 +53,7 @@ section#content-wrapper {
 div.post-item-home {
     text-align: center;
     margin-top: 70px;
-    padding: 0 1.5em;
+    padding: 0 2em;
 }
 
 div.post-item-home figure {
@@ -95,7 +99,8 @@ div.post-item-home p {
 div#sidebar {
     margin-top: 70px;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 1.5em 0 4.5em;
+   line-height: 1.55;
 }
 
 div#sidebar input {
@@ -104,6 +109,7 @@ div#sidebar input {
 }
 
 div#sidebar h3 {
+    font-size: 28px;
     font-weight: bold;
     color: #c3d1c5;
     text-transform: uppercase;
@@ -123,7 +129,9 @@ div#sidebar ul li {
 
 div#sidebar ul li a {
     color: #c3d1c5;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 div#sidebar ul li a:hover {
@@ -133,8 +141,9 @@ div#sidebar ul li a:hover {
 .form-control { 
     display: block;
     width: 100%;
-    height: 40px;
+    height: 43px;
     font-size: 14px;
     border-radius: 1px;
+    border: 1px solid #aaa;
 }
 
