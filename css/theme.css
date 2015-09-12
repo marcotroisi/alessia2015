@@ -15,9 +15,15 @@
     src: url('../fonts/pier.otf');
 }
 
+@font-face {
+    font-family: Pier;
+    src: url('../fonts/pier-bold.otf');
+    font-weight: bold;
+}
+
 body {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.67;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
 }
@@ -43,7 +49,7 @@ section#content-wrapper {
 div.post-item-home {
     text-align: center;
     margin-top: 70px;
-    padding: 0 10px;
+    padding: 0 1.5em;
 }
 
 div.post-item-home figure {
@@ -62,14 +68,13 @@ div.post-item-home figure.img-odd {
 }
 
 div.post-item-home h2 {
-    font-size: 22px;
-    margin: 1em 0;
+    font-size: 23px;
+    margin: 1.5em .5em .5em .5em;
 }    
 
 div.post-item-home h2 a {
     font-family: Arkiv, Helvetica, sans-serif;
     color: #181818;
-    margin: 30px auto 20px;
     text-transform: uppercase;
 }
 
@@ -78,8 +83,8 @@ div.post-item-home h2 a:hover {
 }
 
 div.post-item-home-date {
-    font-size: 12px;
-    margin-bottom: 20px;
+    font-size: 13px;
+    margin-bottom: 2.5em;
     color: #7b7b7b;
 }
 
@@ -98,9 +103,10 @@ div#sidebar input {
 }
 
 div#sidebar h3 {
+    font-weight: bold;
     color: #c3d1c5;
     text-transform: uppercase;
-    margin-top: 0;
+    margin: 0 0 1em 0;
 }
 
 div#sidebar ul {
@@ -121,5 +127,13 @@ div#sidebar ul li a {
 
 div#sidebar ul li a:hover {
     text-decoration: none;
+}
+
+.form-control { 
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 1px;
 }
 
