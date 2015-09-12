@@ -16,7 +16,10 @@
 }
 
 body {
+    font-size: 16px;
+    line-height: 1.6;
     background-color: #fff;
+    -webkit-font-smoothing: antialiased;
 }
 
 #page-wrapper {
@@ -58,10 +61,14 @@ div.post-item-home figure.img-odd {
     height: 400px;
 }
 
+div.post-item-home h2 {
+    font-size: 22px;
+    margin: 1em 0;
+}    
+
 div.post-item-home h2 a {
     font-family: Arkiv, Helvetica, sans-serif;
     color: #181818;
-    font-size: 20px;
     margin: 30px auto 20px;
     text-transform: uppercase;
 }
@@ -73,6 +80,7 @@ div.post-item-home h2 a:hover {
 div.post-item-home-date {
     font-size: 12px;
     margin-bottom: 20px;
+    color: #7b7b7b;
 }
 
 div.post-item-home p {
@@ -92,6 +100,7 @@ div#sidebar input {
 div#sidebar h3 {
     color: #c3d1c5;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 div#sidebar ul {
