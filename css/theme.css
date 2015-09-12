@@ -22,7 +22,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.69;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ div.post-item-home figure.img-odd {
 }
 
 div.post-item-home h2 {
-    font-size: 23px;
+    font-size: 20px;
     margin: 1.5em .5em .5em .5em;
 }    
 
@@ -100,7 +100,7 @@ div#sidebar {
     margin-top: 70px;
     text-align: center;
     padding: 0 1.5em 0 4.5em;
-   line-height: 1.55;
+    line-height: 1.55;
 }
 
 div#sidebar input {
@@ -109,7 +109,7 @@ div#sidebar input {
 }
 
 div#sidebar h3 {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     color: #c3d1c5;
     text-transform: uppercase;
@@ -129,7 +129,7 @@ div#sidebar ul li {
 
 div#sidebar ul li a {
     color: #c3d1c5;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 
 }
