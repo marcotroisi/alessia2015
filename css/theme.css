@@ -148,6 +148,25 @@ div#sidebar ul li a:hover {
     border: 1px solid #aaa;
 }
 
+/* PAGE */
+
 .post-item-home.page p {
     margin: 20px 15%;
+    line-height:30px;
 }
+
+.post-item-home.page h2 {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.post-item-home.page .wp-caption {
+    margin: 30px 0;
+}
+
+.post-item-home.page .wp-caption-text {
+    margin: 5px 0;
+    color: #7b7b7b;
+    font-size:12px;
+}
+
