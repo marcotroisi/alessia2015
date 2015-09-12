@@ -1,0 +1,79 @@
+/*Archiv Bold for title:*/
+/*— #181818 for blog title*/
+/*— #4b4b4b for post titles*/
+/*— #c3d1c5 for sidebar*/
+/* article: #7b7b7b*/
+/*Pier for body font.*/
+
+@font-face {
+  font-family: Arkiv;
+  src: url('../fonts/Arkiv-Bold.otf');
+}
+@font-face {
+  font-family: Pier;
+  src: url('../fonts/pier.otf');
+}
+
+body {
+  background-color: #fff;
+}
+
+#page-wrapper {
+  font-family: Pier, Arial, sans-serif;
+}
+
+header#logo {
+  margin: 150px auto;
+  font-family: Arkiv, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+  color: #181818;
+}
+
+section#content-wrapper {
+
+}
+
+div.post-item-home {
+  text-align: center;
+}
+
+div.post-item-home figure img {
+  width: 100%;
+}
+
+div.post-item-home h2 {
+  font-family: Arkiv, Helvetica, sans-serif;
+  color: #181818;
+  font-size: 20px;
+  margin: 30px auto 20px;
+}
+
+div.post-item-home-date {
+  font-size:12px;
+  margin-bottom: 20px;
+}
+
+div.post-item-home p {
+  color: #7b7b7b;
+}
+
+div#sidebar {
+  text-align: center;
+}
+
+div#sidebar input {
+  text-align: center;
+}
+
+div#sidebar h3 {
+  color: #c3d1c5;
+  text-transform: uppercase;
+}
+
+div#sidebar  {
+
+}
+
