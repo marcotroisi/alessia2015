@@ -63,11 +63,27 @@ div.post-item-home figure {
     background-position: center center;
 }
 
-div.post-item-home figure.img-even {
+.row-odd div.post-item-home figure.img-odd {
+    height: 400px;
+}
+
+.row-odd div.post-item-home figure.img-even {
     height: 300px;
 }
 
-div.post-item-home figure.img-odd {
+.row-even div.post-item-home figure.img-odd {
+    height: 380px;
+}
+
+.row-even div.post-item-home figure.img-even {
+    height: 450px;
+}
+
+.row-odd.third div.post-item-home figure.img-odd {
+    height: 330px;   
+}
+
+.row-odd.third div.post-item-home figure.img-even {
     height: 400px;
 }
 
@@ -155,9 +171,14 @@ div#sidebar ul li a:hover {
     line-height:30px;
 }
 
+.post-item-home.page a {
+    color: #c3d1c5;
+}
+
 .post-item-home.page h2 {
     margin-top: 2.5em;
     margin-bottom: 1em;
+    font-weight:bold;
 }
 
 .post-item-home.page .wp-caption {
