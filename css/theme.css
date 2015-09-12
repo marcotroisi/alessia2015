@@ -147,3 +147,6 @@ div#sidebar ul li a:hover {
     border: 1px solid #aaa;
 }
 
+.post-item-home.page p {
+    margin: 20px 15%;
+}
